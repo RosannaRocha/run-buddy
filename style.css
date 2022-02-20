@@ -71,3 +71,26 @@ font-family: Helvetica, Arial, sans-serif;
   footer a {
       color: #024e76;
   }
+
+section {
+    padding: 60px;
+}
+
+.hero {
+    height: 600px;
+    background-image: url("assets/images/hero-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+.form {
+    border: 3px solid blue;
+    background-color: #fce138;
+    font-color: #024e76;
+    padding: 20px;
+    width: 500px;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
