@@ -17,59 +17,59 @@ header {
     flex-wrap: wrap;
 }
 
-  header a {
+header a {
     text-decoration: none;
     color: #fce138;
-  }
+}
 
-  header nav {
-      margin: 7px 0;
-  }
+header nav {
+    margin: 7px 0;
+}
 
-  header nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      list-style: none;
-  }
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
 
-  header nav ul li a {
-      margin: 0 30px;
-      font-weight: lighter;
-      font-size: 1.55vw;
-  }
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
 
-  header h1 {
-      font-weight: bold;
-      font-size: 36px;
-      color: #fce138;
-      margin: 0;
-  }
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
 
-  footer {
-      background: #fce138;
-      width: 100%;
-      padding: 40px 35px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-  }
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
-  footer h2 {
-      color: #024e76;
-      font-size: 30px;
-      margin: 0;
-  }
+footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
 
-  footer div {
-      line-height: 1.5;
-      text-align: right;
-  }
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
 
-  footer a {
-      color: #024e76;
-  }
+footer a {
+    color: #024e76;
+}
 
 section {
     padding: 60px;
@@ -218,42 +218,49 @@ section {
     line-height: 1.5;
     color: #024e76;
 }
+/* End of What You Do section */
+
+/* Trainers section styling begins */
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .trainer {
-    width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 20px;
     background: #024e76;
     color: #fce138;
-    overflow: auto;
+    flex: 1;
 }
 
 .trainer img {
-    width: 35%;
-    float: left;
+    width: 100%;
 }
 
 .trainer-bio {
-    padding: 35px; 
-    float: left;
-    width: 65%;
+    padding: 25px; 
+    line-height: 1.3;
 }
 
 .trainer-bio h3 {
-    font-size: 32px;
-    margin-bottom: 8px;
+    font-size: 28px;
 }
 
 .trainer-bio h4 {
     font-weight: lighter;
-    font-size: 26px;
-    margin-bottom: 25px;
+    font-size: 22px;
+    margin-bottom: 15px;
 }
 
 .trainer-bio p {
     font-size: 17px;
-    line-height: 1.3;
 }
+/* Trainers styling ends */
 
+/* Contact section styling begins */
 .contact {
     background-color: #024e76;
 }
@@ -292,7 +299,9 @@ section {
 .contact-info a {
     color: #fce138;
 }
+/* Contact section styling ends */
 
+/* General styling */
 .text-left {
     text-align: left;
 }
@@ -304,4 +313,4 @@ section {
 .flex-row {
     display: flex;
 }
-
+/* General styling ends */
